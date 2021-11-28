@@ -13,9 +13,22 @@ Github 주소 : https://github.com/roykimm/svelte-commerce
 ---
 ---
 ---
-### 블로그 프로젝트
-Github 주소 : https://github.com/roykimm/svelte-kit-blog      
+### 고양이 사진 갤러리
+프로젝트 설명 : 사진을 갤러리 형태로 볼수 있으며, 이미지 업로드, 다운로드를 할수 있는 프로젝트 입니다.   
+Github 주소 : https://github.com/roykimm/svelte-gallery
 서버 url : http://gobella.kr:9003/   
+기술스택 : Svelete, Tailwindcss, Django, Nginx, Sqlite, Aws EC2   
+요약 : 
+* 프론트엔드는 svelte/svelte-routing을 사용 하여 구현. 
+* 백엔드는 Django를 사용.
+* 배포는 Aws EC2, Nginx, uwsgi 배포
+---
+---
+---
+### 블로그 프로젝트
+프로젝트 설명 : simple블로그. 간단하게 마크다운 형태로 파일을 작성 하여 블로그 내용을 작성할 수 있습니다.(현재 보고계신 사이트 입니다.)      
+Github 주소 : https://github.com/roykimm/svelte-kit-blog      
+서버 url : http://gobella.kr:9004/   
 기술스택 : Svelte-kit, mdsvex, Css, Nginx   
 요약 : 
 * 프론트엔드 : svelte-kit로 구현
