@@ -11,9 +11,6 @@
 			<a class="nav-a" href={`${base}/blog`}>Blog</a>
 		</li>
 		<li class="nav-li">
-			<a class="nav-a" href={`${base}/about`}>About</a>
-		</li>
-		<li class="nav-li">
 			<a class="nav-a" href={`${base}/projects`}>Projects</a>
 		</li>
 	</ul>

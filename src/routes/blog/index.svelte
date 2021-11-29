@@ -1,6 +1,5 @@
 <script context="module">
 	import { base } from '$app/paths';
-	console.log(base);
 	const allPosts = import.meta.glob('./*.{md,svx}');
 
 	let body = [];
@@ -34,7 +33,7 @@
 	});
 </script>
 
-<h1>Blog</h1>
+<h1>Blogs</h1>
 <ul>
 	{#each dateSortedPosts as { path, metadata: { title, tags, date } }}
 		<li>
